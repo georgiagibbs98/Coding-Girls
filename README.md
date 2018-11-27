@@ -4,6 +4,6 @@ Website
 
 Carolin
 
-Geirgia
+Georgia
 
 Winky
