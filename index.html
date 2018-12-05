@@ -1,71 +1,181 @@
 <!DOCTYPE html>
-<html>
-   <head>
-     <title> Our Favourite Recipes </title>
-      <link rel = 'stylesheet' type = 'text/css' href = 'index.css'>
-   </head>
-<body>
-	
-<!-- Body-->
-<H1> Our Favourite Recipes from Around the World </H1>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-</body>
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
 
-<!-- Headings -->
-<p> 
-<h2> Italian </h2>
-<br>
-<a href="https://www.bbcgoodfood.com/recipes/4683/pizza-margherita-in-4-easy-steps" target="_blank"> Pizza</a>
-	<br>
-<a href="https://www.bbcgoodfood.com/recipes/slow-cooker-vegetable-lasagne?fbclid=IwAR3u3PyfduWXFI_gaSkottmBvZGDMKUipe-9cZa30FlhWiDLrTjPJpj3mzw" target="_blank"> Lasagne </a>
-	<br>
-<a href="https://www.bbcgoodfood.com/recipes/antipasti-platter-homemade-flatbreads?fbclid=IwAR0_HEWN_4wPUWsYrwxBEmWaci23sory9VMNF7t6mR7BaIfxIWuW43OAQ1g" target="_blank"> Antipasti </a>
-	<br>
-<a href="https://www.deliaonline.com/recipes/main-ingredient/chocolate/tiramisu?fbclid=IwAR2c7Wqi4G8ZgDT6DTCetZ0xJPcxyN04lcVrsQOd1eamIMxDp2qwQ9qj9Xk" target="_blank"> Tiramisu </a>
-</p>
-	<br>
+    <title>Carousel Template for Bootstrap</title>
 
-<p>
-<h2> Indian </h2>
- 	<br>
-<a href="https://www.telegraph.co.uk/food-and-drink/recipes/the-only-10-curry-recipes-you-ll-ever-need/?fbclid=IwAR3u3PyfduWXFI_gaSkottmBvZGDMKUipe-9cZa30FlhWiDLrTjPJpj3mzw"target="_blank"> Curries </a>
-	<br>
-<a href="https://www.jamieoliver.com/news-and-features/features/lentils-and-basic-tarka-dhal-recipe/?fbclid=IwAR1pc0WiuYvOPBv9kzkWu6vdIeAAaTVdHEGQHWJARgGCdqjdI7q1ciOjkiw" target="_blank"> Dahl </a>
-	<br>
-<a href="https://www.bbcgoodfood.com/recipe/vegetable-samosas?fbclid=IwAR2Z4HxvloABhWIYobtUjsmytcebgp4tH9pKpWKZG6vpp699uQDyBLW0Xl8" target="_blank"> Samosa </a>
-	<br>
-</p>
-	<br>
 
-<p>
-<h2> Chinese </h2>
-	<br>
-<a href="https://www.chinasichuanfood.com/how-to-make-dumplings/?fbclid=IwAR2SwcmoMoN9V0VG34xxWzmxWuVagT67waYvA-OHPHFbBlsKFKjAuhKxV8I" target="_blank"> Dumplings </a>
-	<br>
-<a href="https://tasty.co/recipe/spicy-szechuan-chicken?fbclid=IwAR08fCefPwqWFabIxcpyDoApCfODYjicxeyuKY6C1iRE4CN-YBt1ts57c_o" target="_blank"> Spicy Fried Chicken </a>
-	<br>
- <a href="http://eastmeetskitchen.com/videos/recipes/peanut-mochi-luo-mai-chi/?fbclid=IwAR3DmLsgceRbIxLWxoL5TcdrjEhDQpMk0axDbtIZD77MOn-1L3p5Kf9WRm4" target="_blank"> Mochi </a>
-</p>
-	<br>
-<p>
-<h2> Vegan Options </h2>
-	<br>
-<a href="https://www.bbcgoodfood.com/recipes/vegan-mac-n-cheese?fbclid=IwAR21cKpd6TLV272_I7HUljtlz5CDqwQ-wYedYp6l-72A9cUP9iASAlMY2Jk" target="_blank"> Vegan Mac 'n' Cheese </a>
-	<br>
-<a href="https://www.bbcgoodfood.com/recipes/7732/pumpkin-curry-with-chickpeas?fbclid=IwAR0TBxGYyUs0pcZ-Z58RTG0SseHrVHooII4d2YztEVhIls6pOcDklDyK8gM" target="_blank"> Vegan Curry </a>
-	<br>
-<a href="https://www.bbcgoodfood.com/recipes/coconut-banana-pancakes?fbclid=IwAR3ErkgSZsovwaEqgoBtU7JJqI9Vf6iVcdfo-UrYJdP84xljx5ghIIoAmtQ" target="_blank"> Vegan Pancakes </a>
-	<br>
- <a href="https://www.jamieoliver.com/recipes/chocolate-recipes/dairy-free-chocolate-mousse/?fbclid=IwAR2SwcmoMoN9V0VG34xxWzmxWuVagT67waYvA-OHPHFbBlsKFKjAuhKxV8I" target="_blank"> Vegan Chocolate Mousse </a>
-	<br>
+    <link href="../../dist/css/bootstrap.min.css" rel="stylesheet">
+
+
+    <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+
+    <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
+
+
+    <link href="carousel.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <div class="navbar-wrapper">
+      <div class="container">
+
+        <nav class="navbar navbar-inverse navbar-static-top">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#">Coding Girls</a>
+            </div>
+
+          </div>
+        </nav>
+
+      </div>
+    </div>
 
 
 
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+      <ol class="carousel-indicators">
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <img class="first-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="First slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Our Favourite Recipe</h1>
+              <p>Cooking time can be daunting for students after hours of lectures and seminars. Here is our easy peasy recipe for <code> UEA Students <3 </code> </p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Contact</a></p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+  <body>
+
+  <div class="container marketing">
+
+    <div>
+    <h1>Indian Cusine</h1>
+  </div>
+      <div class="row">
+        <div class="col-lg-4">
+
+          <img class="img-circle" src="curry.jpg" alt="Generic placeholder image" width="140" height="140">
+          <h2>Curries</h2>
+          <p>Here is 10 best curries recipes by the telegraph ranging from chicken tikka masala to Kashmiri paneer masala and many more!</p>
+          <p><a class="btn btn-default" href="#" role="button">View Recipe &raquo;</a></p>
+        </div>
+        <div class="col-lg-4">
+          <img class="img-circle" src="samosa.png" alt="Generic placeholder image" width="140" height="140">
+          <h2>Vegetable Samosas</h2>
+          <p>A delicious vegetable samosas recipes that is one of our personal favourites!</p>
+          <p><a class="btn btn-default" href="#" role="button">View Recipe &raquo;</a></p>
+        </div>
+        <div class="col-lg-4">
+          <img class="img-circle" src="dhal.jpg" alt="Generic placeholder image" width="140" height="140">
+          <h2>Lentil and tarka dhal</h2>
+          <p>Here is a delicious dhal recipe that looks incredible!</p>
+          <p><a class="btn btn-default" href="#" role="button">View Recipe &raquo;</a></p>
+        </div>
+      </div>
+
+      <div class="container marketing">
+
+        <div>
+        <h1>Italian Cusines</h1
+        </div>
+          <div class="row">
+            <div class="col-lg-4">
+
+              <img class="img-circle" src="lasagne.png" alt="Generic placeholder image" width="140" height="140">
+              <h2>Vegetable lasagne</h2>
+              <p>Linked is a delicious vegetable lasagne that can be made in prepped within half hour!</p>
+              <p><a class="btn btn-default" href="#" role="button">View Recipe &raquo;</a></p>
+            </div>
+            <div class="col-lg-4">
+              <img class="img-circle" src="pizza.png" alt="Generic placeholder image" width="140" height="140">
+              <h2>Mozarella stuffed crust pizza</h2>
+              <p>A cheesy pizza that is perfect for a friday night in!</p>
+              <p><a class="btn btn-default" href="#" role="button">View Recipe &raquo;</a></p>
+            </div>
+            <div class="col-lg-4">
+              <img class="img-circle" src="antipasti.png" alt="Generic placeholder image" width="140" height="140">
+              <h2>Antipasti</h2>
+              <p>A great antipasti recipe with a mouth watering homemade flatbread with a prep time of only 20 minutes.</p>
+              <p><a class="btn btn-default" href="#" role="button">View Recipe &raquo;</a></p>
+            </div>
+          </div>
+
+          <div class="container marketing">
+
+              <div>
+                <h1>Chinese Cuisine</h1>
+              </div>
+              <div class="row">
+                <div class="col-lg-4">
+
+                  <img class="img-circle" src="dumpling.jpg" alt="Generic placeholder image" width="140" height="140">
+                  <h2>Chinese Dumplings</h2>
+                  <p>An amazing recipe for Chinese Dumplings with step by step pictures of how to make it!</p>
+                  <p><a class="btn btn-default" href="#" role="button">View Recipe &raquo;</a></p>
+                </div>
+                <div class="col-lg-4">
+                  <img class="img-circle" src="mochi.jpg" alt="Generic placeholder image" width="140" height="140">
+                  <h2>Peanut Mochi</h2>
+                  <p>If you love a good dessert this is the perfecr recipe for you!</p>
+                  <p><a class="btn btn-default" href="#" role="button">View Recipe &raquo;</a></p>
+                </div>
+                <div class="col-lg-4">
+                  <img class="img-circle" src="chicken.jpg" alt="Generic placeholder image" width="140" height="140">
+                  <h2>Spicy Szechuan Chicken</h2>
+                  <p>If you love spicy food, this chicken dish is perfect for you!</p>
+                  <p><a class="btn btn-default" href="#" role="button">View Recipe &raquo;</a></p>
+                </div>
+              </div>
+
+              <div>
+                <h1>Vegan Recipes</h1>
+              </div>
+              <div class="row">
+                <div class="col-lg-4">
+
+                  <img class="img-circle" src="chocolate.jpg" alt="Generic placeholder image" width="140" height="140">
+                  <h2>Dairy free Chocolate Mousse</h2>
+                  <p>Rustle up this smooth, creamy and super-chocolaty mousse in minutes, then whack it in the fridge ready to serve as a dinner-party dessert.</p>
+                  <p><a class="btn btn-default" href="#" role="button">View Recipe &raquo;</a></p>
+                </div>
+                <div class="col-lg-4">
+                  <img class="img-circle" src="pancakes.png" alt="Generic placeholder image" width="140" height="140">
+                  <h2>Banana and Cocunut Pancake</h2>
+                  <p>These vegan coconut milk pancakes with passion fruit and banana topping couldn't be simpler. They're perfect for a brunch with family and friends</p>
+                  <p><a class="btn btn-default" href="#" role="button">View Recipe &raquo;</a></p>
+                </div>
+                <div class="col-lg-4">
+                  <img class="img-circle" src="pumpkin.png" alt="Generic placeholder image" width="140" height="140">
+                  <h2>Pumpkin curry with chickpeas</h2>
+                  <p>If you love spicy food, this chicken dish is perfect for you!</p>
+                  <p><a class="btn btn-default" href="#" role="button">View Recipe &raquo;</a></p>
+                </div>
+              </div>
 
 
-
-</p>
-<br>
-
+  </body>
 </html>
-
