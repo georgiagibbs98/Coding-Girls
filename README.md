@@ -28,7 +28,7 @@ For final webpage design, PLEASE ONLY DOWNLOAD the zip folder "bootstrap-3.3.7 -
 <B>** Cautions: **</B>
 
 <p>
-For some reasons we have created 2 contact pages, one without css and one with css. At this moment, we only can link the index page with the without-css contact page, unfortunately we are unable to link the with-css contact page to our index.
+For some reasons we have created 2 contact pages, one without css and one with css. At this moment, we only can link the index page to the without-css contact page, unfortunately we are unable to link the with-css contact page to our index.
 
 Please click into the "jumbotron-narrow"folder" in order to review our beautifully designed contact page! 
 
