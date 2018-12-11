@@ -34,11 +34,12 @@ Please click into the "jumbotron-narrow"folder" in order to review our beautiful
 
 </p>
 
-<div>
-Contributions:
+<B>Contributions: </B>
+
+<p>
 Thank you CF:G for the introductary courses on webpage development!
 Special thanks to Sophie and Debbie our wonderful course directors ;)
-</div>
+</p>
 
 Many thanks!
 Georgia, Winky & Carrie
