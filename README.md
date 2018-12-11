@@ -1,7 +1,7 @@
 <B>About Us</B>
 
 <p>
-We are Coding Girls that aim to share the happiness of food and cooking to the world! Our webpages introduce food receipes to students who aims to cook within 15mins to 30mins.
+We are Coding Girls that aim to share the happiness of food and cooking to the world! Our webpages introduce food recipes to students who aims to cook within 15mins to 30mins.
 </p>
 
 <B>Webpage Design: (2 pages in total) </B>
@@ -37,7 +37,7 @@ Please click into the "jumbotron-narrow"folder" in order to review our beautiful
 <B>Contributions: </B>
 
 <p>
-Thank you CF:G for the introductary courses on webpage development!
+Thank you CF:G for the introductory courses on webpage development!
 Special thanks to Sophie and Debbie our wonderful course directors ;)
 </p>
 
