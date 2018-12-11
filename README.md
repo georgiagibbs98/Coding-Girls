@@ -21,8 +21,8 @@ For final webpage design, PLEASE ONLY DOWNLOAD the zip folder "bootstrap-3.3.7 -
 
 <ol>
 <li>Once you have downloaded and unzipped the "bootstrap-3.3.7 - Final Product", please click into the "Click Here for Webpages" folder.</li>
-<li>Click the folder "carousel" for the index page</li>
-<li>Click the folder "jumbotron-narrow"</li>
+<li>Click the folder "carousel", open the "index" files for "home page"</li>
+<li>Click the folder "jumbotron-narrow", open the "index" files for "contact page" </li>
 </ol>
 
 <B>** Cautions: **</B>
