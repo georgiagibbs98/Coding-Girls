@@ -14,7 +14,7 @@ Index + Contact
 <B>** Cautions: **</B>
 
 <p>
-For final webpage design, PLEASE ONLY DOWNLOAD the zip folder "bootstrap-3.3.7 - Final Product". Other files located in the Github does not contributes to our final webpage design.
+For final webpage design, PLEASE ONLY DOWNLOAD the zip folder "bootstrap-3.3.7 - Final Product". Other files located in the Github does not open the final webpage.
 </p>
 
 <B>Nevigations:</B>
