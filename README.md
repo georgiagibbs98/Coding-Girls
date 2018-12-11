@@ -19,11 +19,11 @@ For final webpage design, PLEASE ONLY DOWNLOAD the zip folder "bootstrap-3.3.7 -
 
 <B>Nevigations:</B>
 
-<p>
-- Once you have downloaded and unzipped the "bootstrap-3.3.7 - Final Product", please click into the "Click Here for Webpages" folder.
-- Click the folder "carousel" for the index page
-- Click the folder "jumbotron-narrow"
-</p>
+<ol>
+<li>Once you have downloaded and unzipped the "bootstrap-3.3.7 - Final Product", please click into the "Click Here for Webpages" folder.</li>
+<li>Click the folder "carousel" for the index page</li>
+<li>Click the folder "jumbotron-narrow"</li>
+</ol>
 
 <B>** Cautions: **</B>
 
