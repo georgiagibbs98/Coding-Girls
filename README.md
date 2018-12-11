@@ -1,9 +1,12 @@
 <B>About Us</B>
 
-<div>
+<p>
 We are Coding Girls that aim to share the happiness of food and cooking to the world! Our webpages introduce food receipes for students who aims to cook within 15mins to 30mins.
+</p>
 
-Webpage Design: (2 pages in total)
+<B>Webpage Design: (2 pages in total) </B>
+
+<div>
 1. Index
 2. Contact
 </div>
@@ -12,7 +15,8 @@ Webpage Design: (2 pages in total)
 <B>** Cautions: **</B>
 
 <div>
-1. For final webpage design, PLEASE ONLY DOWNLOAD the zip folder "bootstrap-3.3.7 - Final Product". Other files located in the Github does not contributes to our final webpage design.
+For final webpage design, PLEASE ONLY DOWNLOAD the zip folder "bootstrap-3.3.7 - Final Product". Other files located in the Github does not contributes to our final webpage design.
+</div>
 
 Nevigations:
 - Once you have downloaded and unzipped the "bootstrap-3.3.7 - Final Product", please click into the "Click Here for Webpages" folder.
