@@ -1,4 +1,4 @@
-About Us
+<B>About Us</B>
 We are Coding Girls that aim to share the happiness of food and cooking to the world! Our webpages introduce food receipes for students who aims to cook within 15mins to 30mins.
 
 Webpage Design: (2 pages in total)
